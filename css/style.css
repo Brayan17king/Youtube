@@ -127,3 +127,22 @@ nav{
     border-radius: 50%;
     margin-right: 20px;
 }
+
+/*le damos estilos a la clase creada en el js que llamamos "small-slidebar"*/
+.small-slidebar{
+    width: 5%;
+
+}
+
+.small-slidebar a p{
+    display: none;
+}
+
+.small-slidebar h3{
+    display: none;
+}
+
+.small-slidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
