@@ -4,9 +4,16 @@ let menuIcon = document.querySelector('.menu-icon');
 // Selecciona el elemento con la clase "sidebar" y lo almacena en la variable "sidebar"
 let sidebar = document.querySelector('.sidebar');
 
+// Selecciona el elemento con la clase "container" y lo almacena en la variable "container"
+let container = document.querySelector('.container');
+
+
 // Se define un evento onclick para el elemento "menuIcon"
 menuIcon.onclick = function() {
     // En el momento en que se hace clic en "menuIcon", se ejecuta esta función
+    
     // La función toggle agrega la clase "small-slidebar" si no está presente, y la elimina si está presente.
-    sidebar.classList.toggle('small-slidebar');  
+    sidebar.classList.toggle('small-slidebar');
+    // La función toggle agrega la clase "small-slidebar" si no está presente, y la elimina si está presente.
+    container.classList.toggle('large-container');  
 }
