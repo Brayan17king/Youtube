@@ -8,7 +8,7 @@ const options = {
         gl: 'US'   // Región: Estados Unidos
     },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370', // Tu clave de API
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76', // Tu clave de API
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com' // El host de RapidAPI
     }
 };
@@ -74,7 +74,7 @@ const optionsData1 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -84,7 +84,7 @@ const optionsVideo1 = {
     url: 'https://youtube138.p.rapidapi.com/video/streaming-data/',
     params: { id: 'izvodnnCvt0' },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -99,7 +99,7 @@ const optionsData2 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -109,7 +109,7 @@ const optionsVideo2 = {
     url: 'https://youtube138.p.rapidapi.com/video/streaming-data/',
     params: { id: 'P7nwKpy_C8E' },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -124,7 +124,7 @@ const optionsData3 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -134,7 +134,7 @@ const optionsVideo3 = {
     url: 'https://youtube138.p.rapidapi.com/video/streaming-data/',
     params: { id: 'E6WrPNFH7Nw' },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -149,7 +149,7 @@ const optionsData4 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -159,7 +159,7 @@ const optionsVideo4 = {
     url: 'https://youtube138.p.rapidapi.com/video/streaming-data/',
     params: { id: 'rQsgjvsnqbQ' },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -174,7 +174,7 @@ const optionsData5 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -184,7 +184,7 @@ const optionsVideo5 = {
     url: 'https://youtube138.p.rapidapi.com/video/streaming-data/',
     params: { id: 'znYqquFE1To' },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -199,7 +199,7 @@ const optionsData6 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -209,7 +209,7 @@ const optionsVideo6 = {
     url: 'https://youtube138.p.rapidapi.com/video/streaming-data/',
     params: { id: 'qQCFGKhLk9E' },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -224,7 +224,7 @@ const optionsData7 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -234,7 +234,7 @@ const optionsVideo7 = {
     url: 'https://youtube138.p.rapidapi.com/video/streaming-data/',
     params: { id: 'Kgn6HTq3uws' },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -249,7 +249,7 @@ const optionsData8 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -259,7 +259,7 @@ const optionsVideo8 = {
     url: 'https://youtube138.p.rapidapi.com/video/streaming-data/',
     params: { id: 'onrQYHjX2y4' },
     headers: {
-        'X-RapidAPI-Key': '678c3bf7a6msh3b045e14c79d05cp1030e7jsndc75fdea6370',
+        'X-RapidAPI-Key': '02e0700e91msh97e940fac3b13b8p1c82f0jsn3bfa8273bb76',
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -495,86 +495,67 @@ const fetchDataVideo = async () => {
         <div class="right-sidebar">
 
             <div class="side-video-list">
-                <a href="" class="small-thumbnail"><img src="/images/thumbnail1.png"></a>
+                <a href="" class="small-thumbnail"><img src="${response2.data.thumbnails[3].url}"></a>
                 <div class="vid-info">
-                    <a href="">Best Channel that help you to be a web developer</a>
-                    <p>Easy Tutorials</p>
-                    <p>15k Views</p>
+                    <a href="">${response2.data.title}</a>
+                    <p>${response2.data.author.title}</p>
+                    <p>${response2.data.stats.views} Views</p>
                 </div>
             </div>
 
             <div class="side-video-list">
-                <a href="" class="small-thumbnail"><img src="/images/thumbnail2.png"></a>
+                <a href="" class="small-thumbnail"><img src="${response3.data.thumbnails[3].url}"></a>
                 <div class="vid-info">
-                    <a href="">Best Channel that help you to be a web developer</a>
-                    <p>Easy Tutorials</p>
-                    <p>15k Views</p>
+                    <a href="">${response3.data.title}</a>
+                    <p>${response3.data.author.title}</p>
+                    <p>${response3.data.stats.views} Views</p>
                 </div>
             </div>
 
             <div class="side-video-list">
-                <a href="" class="small-thumbnail"><img src="/images/thumbnail3.png"></a>
+                <a href="" class="small-thumbnail"><img src="${response4.data.thumbnails[3].url}"></a>
                 <div class="vid-info">
-                    <a href="">Best Channel that help you to be a web developer</a>
-                    <p>Easy Tutorials</p>
-                    <p>15k Views</p>
+                    <a href="">${response4.data.title}</a>
+                    <p>${response4.data.author.title}</p>
+                    <p>${response4.data.stats.views} Views</p>
                 </div>
             </div>
 
             <div class="side-video-list">
-                <a href="" class="small-thumbnail"><img src="/images/thumbnail4.png"></a>
+                <a href="" class="small-thumbnail"><img src="${response5.data.thumbnails[3].url}"></a>
                 <div class="vid-info">
-                    <a href="">Best Channel that help you to be a web developer</a>
-                    <p>Easy Tutorials</p>
-                    <p>15k Views</p>
+                    <a href="">${response5.data.title}</a>
+                    <p>${response5.data.author.title}</p>
+                    <p>${response5.data.stats.views} Views</p>
                 </div>
             </div>
 
             <div class="side-video-list">
-                <a href="" class="small-thumbnail"><img src="/images/thumbnail5.png"></a>
+                <a href="" class="small-thumbnail"><img src="${response6.data.thumbnails[3].url}"></a>
                 <div class="vid-info">
-                    <a href="">Best Channel that help you to be a web developer</a>
-                    <p>Easy Tutorials</p>
-                    <p>15k Views</p>
+                    <a href="">${response6.data.title}</a>
+                    <p>${response6.data.author.title}</p>
+                    <p>${response6.data.stats.views} Views</p>
                 </div>
             </div>
 
             <div class="side-video-list">
-                <a href="" class="small-thumbnail"><img src="/images/thumbnail6.png"></a>
+                <a href="" class="small-thumbnail"><img src="${response7.data.thumbnails[3].url}"></a>
                 <div class="vid-info">
-                    <a href="">Best Channel that help you to be a web developer</a>
-                    <p>Easy Tutorials</p>
-                    <p>15k Views</p>
+                    <a href="">${response7.data.title}</a>
+                    <p>${response7.data.author.title}</p>
+                    <p>${response7.data.stats.views} Views</p>
                 </div>
             </div>
 
             <div class="side-video-list">
-                <a href="" class="small-thumbnail"><img src="/images/thumbnail7.png"></a>
+                <a href="" class="small-thumbnail"><img src="${response8.data.thumbnails[3].url}"></a>
                 <div class="vid-info">
-                    <a href="">Best Channel that help you to be a web developer</a>
-                    <p>Easy Tutorials</p>
-                    <p>15k Views</p>
+                    <a href="">${response8.data.title}</a>
+                    <p>${response8.data.author.title}</p>
+                    <p>${response8.data.stats.views} Views</p>
                 </div>
             </div>
-
-            <div class="side-video-list">
-                <a href="" class="small-thumbnail"><img src="/images/thumbnail8.png"></a>
-                <div class="vid-info">
-                    <a href="">Best Channel that help you to be a web developer</a>
-                    <p>Easy Tutorials</p>
-                    <p>15k Views</p>
-                </div>
-            </div>
-
-            <div class="side-video-list">
-                <a href="" class="small-thumbnail"><img src="/images/thumbnail1.png"></a>
-                <div class="vid-info">
-                    <a href="">Best Channel that help you to be a web developer</a>
-                    <p>Easy Tutorials</p>
-                    <p>15k Views</p>
-                </div>
-            </div>
-
         </div>
         `)
 
