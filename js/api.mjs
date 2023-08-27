@@ -264,7 +264,7 @@ const optionsVideo8 = {
     }
 };
 
-const fetchDataVideo = async () => {
+const fetchDataInfo = async () => {
     try {
         const response = await axios.request(optionsData1);
         console.log(response.data);
@@ -387,11 +387,200 @@ const fetchDataVideo = async () => {
         </div>
         `)
 
+    } catch (error) {
+        console.error(error);
+    }
+}
 
+// fetchDataInfo();
+
+const fetchDataVideo = async () => {
+    try {
+        const response = await axios.request(optionsVideo1);
+        const response1 = await axios.request(optionsData1);
+        // console.log(response.data);
+        // console.log(response1.data);
+        const response2 = await axios.request(optionsData2);
+        const response3 = await axios.request(optionsData3);
+        const response4 = await axios.request(optionsData4);
+        const response5 = await axios.request(optionsData5);
+        const response6 = await axios.request(optionsData6);
+        const response7 = await axios.request(optionsData7);
+        const response8 = await axios.request(optionsData8);
+
+        const vid1 = document.querySelector('#row');
+        vid1.insertAdjacentHTML('beforeend', /*html*/`
+        <div class="play-video">
+            <video controls autoplay>
+                <source src="${response.data.formats[1].url}">
+            </video>
+
+            <div class="tags">
+                <a href="">#Coding</a>
+                <a href="">#HTML</a>
+                <a href="">#CSS</a>
+                <a href="">#C#</a>
+            </div>
+            <h3>${response1.data.title}</h3>
+            <div class="play-video-info">
+                <p>${response1.data.stats.views} views &bull; ${response1.data.publishedDate}</p>
+                <div>
+                    <a href=""><img src="images/like.png">${response1.data.stats.likes}</a>
+                    <a href=""><img src="images/dislike.png"></a>
+                    <a href=""><img src="images/share.png">Share</a>
+                    <a href=""><img src="images/save.png">Save</a>
+                </div>
+            </div>
+            <hr>
+            <div class="plublisher">
+                <img src="images/Jack.png">
+                <div>
+                    <p>${response1.data.author.title}</p>
+                    <span>${response1.data.stats.suscribers} Subscribers</span>
+                </div>
+                <button type="button">Subscribe</button>
+            </div>
+            <div class="vid-description">
+                <p>Channel that makes learning easy</p>
+                <p>${response1.data.description}</p>
+                <hr>
+                <h4>123 Comments</h4>
+
+                <div class="add-comment">
+                    <img src="images/Jack.png">
+                    <input type="text" placeholder="Write Comments...">
+                </div>
+
+                <div class="old-comment">
+                    <img src="images/Jack.png">
+                    <div>
+                        <h3>Jack Nicholson <span>2 days ago</span></h3>
+                        <p>A global computer network providing a variety of information
+                            and communication facilities, consisting of interconnected
+                            networks using standardized communication protocols.
+                        </p>
+                        <div class="acomment-action">
+                            <img src="images/like.png">
+                            <span>244</span>
+                            <img src="images/dislike.png">
+                            <span>2</span>
+                            <span>REPLY</span>
+                            <a href="">All Replaces</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="old-comment">
+                    <img src="images/Jack.png">
+                    <div>
+                        <h3>Jack Nicholson <span>2 days ago</span></h3>
+                        <p>A global computer network providing a variety of information
+                            and communication facilities, consisting of interconnected
+                            networks using standardized communication protocols.
+                        </p>
+                        <div class="acomment-action">
+                            <img src="images/like.png">
+                            <span>244</span>
+                            <img src="images/dislike.png">
+                            <span>2</span>
+                            <span>REPLY</span>
+                            <a href="">All Replaces</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right-sidebar">
+
+            <div class="side-video-list">
+                <a href="" class="small-thumbnail"><img src="/images/thumbnail1.png"></a>
+                <div class="vid-info">
+                    <a href="">Best Channel that help you to be a web developer</a>
+                    <p>Easy Tutorials</p>
+                    <p>15k Views</p>
+                </div>
+            </div>
+
+            <div class="side-video-list">
+                <a href="" class="small-thumbnail"><img src="/images/thumbnail2.png"></a>
+                <div class="vid-info">
+                    <a href="">Best Channel that help you to be a web developer</a>
+                    <p>Easy Tutorials</p>
+                    <p>15k Views</p>
+                </div>
+            </div>
+
+            <div class="side-video-list">
+                <a href="" class="small-thumbnail"><img src="/images/thumbnail3.png"></a>
+                <div class="vid-info">
+                    <a href="">Best Channel that help you to be a web developer</a>
+                    <p>Easy Tutorials</p>
+                    <p>15k Views</p>
+                </div>
+            </div>
+
+            <div class="side-video-list">
+                <a href="" class="small-thumbnail"><img src="/images/thumbnail4.png"></a>
+                <div class="vid-info">
+                    <a href="">Best Channel that help you to be a web developer</a>
+                    <p>Easy Tutorials</p>
+                    <p>15k Views</p>
+                </div>
+            </div>
+
+            <div class="side-video-list">
+                <a href="" class="small-thumbnail"><img src="/images/thumbnail5.png"></a>
+                <div class="vid-info">
+                    <a href="">Best Channel that help you to be a web developer</a>
+                    <p>Easy Tutorials</p>
+                    <p>15k Views</p>
+                </div>
+            </div>
+
+            <div class="side-video-list">
+                <a href="" class="small-thumbnail"><img src="/images/thumbnail6.png"></a>
+                <div class="vid-info">
+                    <a href="">Best Channel that help you to be a web developer</a>
+                    <p>Easy Tutorials</p>
+                    <p>15k Views</p>
+                </div>
+            </div>
+
+            <div class="side-video-list">
+                <a href="" class="small-thumbnail"><img src="/images/thumbnail7.png"></a>
+                <div class="vid-info">
+                    <a href="">Best Channel that help you to be a web developer</a>
+                    <p>Easy Tutorials</p>
+                    <p>15k Views</p>
+                </div>
+            </div>
+
+            <div class="side-video-list">
+                <a href="" class="small-thumbnail"><img src="/images/thumbnail8.png"></a>
+                <div class="vid-info">
+                    <a href="">Best Channel that help you to be a web developer</a>
+                    <p>Easy Tutorials</p>
+                    <p>15k Views</p>
+                </div>
+            </div>
+
+            <div class="side-video-list">
+                <a href="" class="small-thumbnail"><img src="/images/thumbnail1.png"></a>
+                <div class="vid-info">
+                    <a href="">Best Channel that help you to be a web developer</a>
+                    <p>Easy Tutorials</p>
+                    <p>15k Views</p>
+                </div>
+            </div>
+
+        </div>
+        `)
 
     } catch (error) {
         console.error(error);
     }
 }
 
-// fetchDataVideo();
+fetchDataVideo();
