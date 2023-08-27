@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/api.mjs" defer></script>
     <title>Play Video - Easy Tutorials YouTube Channel</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -30,10 +32,10 @@
     </nav>
 
     <div class="container play-container">
-        <div class="row">
-            <div class="play-video">
+        <div id="row" class="row">
+            <!-- <div class="play-video">
                 <video controls autoplay>
-                    <source src="/video/video.mp4">
+                    <source src="video/video.mp4">
                 </video>
 
                 <div class="tags">
@@ -202,7 +204,7 @@
                 </div>
 
 
-            </div>
+            </div> -->
         </div>
     </div>
 
