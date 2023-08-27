@@ -9,11 +9,13 @@ let container = document.querySelector('.container');
 
 
 // Se define un evento onclick para el elemento "menuIcon"
-menuIcon.onclick = function() {
+menuIcon.onclick = function () {
     // En el momento en que se hace clic en "menuIcon", se ejecuta esta función
-    
+
     // La función toggle agrega la clase "small-slidebar" si no está presente, y la elimina si está presente.
     sidebar.classList.toggle('small-slidebar');
     // La función toggle agrega la clase "small-slidebar" si no está presente, y la elimina si está presente.
-    container.classList.toggle('large-container');  
+    container.classList.toggle('large-container');
 }
+
+

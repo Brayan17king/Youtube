@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/api.mjs" defer></script>
     <title>YouTube</title>
 </head>
 
@@ -83,8 +86,33 @@
     </div>
     <!------------------------------------------Main---------------------------------------------->
     <div class="container">
-        <div class="banner">
-            <img src="/images/banner.png">
+        <div id="banner" class="banner">
+            <!-- <img src="/images/banner.png"> -->
+        </div>
+        <div class="info-container">
+            <div class="info-sep">
+                <div class="left">
+                    <div class="img">
+                        <img src="images/Jack.png" >
+                    </div>
+                    <div class="text">
+                        <h2>CreativeCode</h2>
+                        <div class="text-p">
+                            <p><span>@creativecode787</span></p>
+                            <p>492 subscribers</p>
+                            <p>419 videos</p>
+                        </div>
+                        <a href=""><p>More info about this channel <i class='bx bx-chevron-right'></i></p></a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="suscrito">
+                        <i class='bx bx-bell' ></i>
+                        <p>Subscribe</p>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="list-container">
             <div class="vid-list">
