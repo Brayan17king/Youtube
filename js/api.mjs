@@ -1,3 +1,5 @@
+const key = ""
+
 // Configurar las opciones para la solicitud HTTP
 const options = {
     method: 'GET', // Método de solicitud: GET
@@ -8,7 +10,7 @@ const options = {
         gl: 'US'   // Región: Estados Unidos
     },
     headers: {
-        'X-RapidAPI-Key': '504600a161msh1c7717bf7c68039p1334e6jsn2db7173c107b', // Tu clave de API
+        'X-RapidAPI-Key': key, // Tu clave de API
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com' // El host de RapidAPI
     }
 };
@@ -74,7 +76,7 @@ const optionsData1 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '504600a161msh1c7717bf7c68039p1334e6jsn2db7173c107b',
+        'X-RapidAPI-Key': key,
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -88,7 +90,7 @@ const optionsData2 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '504600a161msh1c7717bf7c68039p1334e6jsn2db7173c107b',
+        'X-RapidAPI-Key': key,
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -102,7 +104,7 @@ const optionsData3 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '504600a161msh1c7717bf7c68039p1334e6jsn2db7173c107b',
+        'X-RapidAPI-Key': key,
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -116,7 +118,7 @@ const optionsData4 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '504600a161msh1c7717bf7c68039p1334e6jsn2db7173c107b',
+        'X-RapidAPI-Key': key,
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -130,7 +132,7 @@ const optionsData5 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '504600a161msh1c7717bf7c68039p1334e6jsn2db7173c107b',
+        'X-RapidAPI-Key': key,
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -144,7 +146,7 @@ const optionsData6 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '504600a161msh1c7717bf7c68039p1334e6jsn2db7173c107b',
+        'X-RapidAPI-Key': key,
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -158,7 +160,7 @@ const optionsData7 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '504600a161msh1c7717bf7c68039p1334e6jsn2db7173c107b',
+        'X-RapidAPI-Key': key,
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -172,7 +174,7 @@ const optionsData8 = {
         gl: 'US'
     },
     headers: {
-        'X-RapidAPI-Key': '504600a161msh1c7717bf7c68039p1334e6jsn2db7173c107b',
+        'X-RapidAPI-Key': key,
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
