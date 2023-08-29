@@ -1,4 +1,4 @@
-const key = ""
+const key = "e9c20ad1b3mshaf50c97b5d699fbp1e7529jsn0606e4cb468d"
 
 // Configurar las opciones para la solicitud HTTP
 const options = {
@@ -307,3 +307,91 @@ const fetchDataInfo = async () => {
 }
 fetchDataInfo();
 
+let searchAt = async () => {
+    const input = document.querySelector("#search-box");
+    input.addEventListener('keydown', async (event) => {
+        if (event.key === 'Enter' && document.activeElement === input) {
+            const url = `https://youtube138.p.rapidapi.com/search/?q=${input.value}&hl=en&gl=US`;
+            const options = {
+                method: 'GET',
+                headers: {
+                    'X-RapidAPI-Key': 'ce0bb5ce10msh86a291bc0f6ef6ap1cebf7jsn6e24795c9b51',
+                    'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
+                }
+            };
+            try {
+                const response = await fetch(url, options);
+                const result = await response.json();
+                const valores = [result]
+                console.log(valores);
+                /*----------------------------------------------------------------------------------------*/
+                const video1 = document.querySelector('.list-container');
+                video1.innerHTML = valores
+                    .map((value) => {
+                        return /*html*/ `
+                        <div class="vid-list">
+                            <a href="#"><img src="${value.contents[0].video.thumbnails[1].url}" class="thumbnail"></a>
+                            <div class="flex-div">
+                            <div class="vid-info">
+                                <a href="play-video.html">${value.contents[0].video.title}</a>
+                                <p>${value.contents[0].video.stats.views} views &bull; ${value.contents[0].video.publishedTimeText}</p>
+                            </div>
+                            </div>
+                            <div class="vid-list">
+                            <a href="#"><img src="${value.contents[1].video.thumbnails[1].url}" class="thumbnail"></a>
+                            <div class="flex-div">
+                            <div class="vid-info">
+                                <a href="play-video.html">${value.contents[1].video.title}</a>
+                                <p>${value.contents[1].video.stats.views} views &bull; ${value.contents[1].video.publishedTimeText}</p>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="vid-list">
+                            <a href="#"><img src="${value.contents[2].video.thumbnails[1].url}" class="thumbnail"></a>
+                            <div class="flex-div">
+                            <div class="vid-info">
+                                <a href="play-video.html">${value.contents[2].video.title}</a>
+                                <p>${value.contents[2].video.stats.views} views &bull; ${value.contents[2].video.publishedTimeText}</p>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="vid-list">
+                            <a href="#"><img src="${value.contents[3].video.thumbnails[1].url}" class="thumbnail"></a>
+                            <div class="flex-div">
+                            <div class="vid-info">
+                                <a href="play-video.html">${value.contents[3].video.title}</a>
+                                <p>${value.contents[3].video.stats.views} views &bull; ${value.contents[3].video.publishedTimeText}</p>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="vid-list">
+                            <a href="#"><img src="${value.contents[4].video.thumbnails[1].url}" class="thumbnail"></a>
+                            <div class="flex-div">
+                            <div class="vid-info">
+                                <a href="play-video.html">${value.contents[4].video.title}</a>
+                                <p>${value.contents[4].video.stats.views} views &bull; ${value.contents[4].video.publishedTimeText}</p>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="vid-list">
+                            <a href="#"><img src="${value.contents[5].video.thumbnails[1].url}" class="thumbnail"></a>
+                            <div class="flex-div">
+                            <div class="vid-info">
+                                <a href="play-video.html">${value.contents[5].video.title}</a>
+                                <p>${value.contents[5].video.stats.views} views &bull; ${value.contents[5].video.publishedTimeText}</p>
+                            </div>
+                            </div>
+                        `;
+                    })
+                    .join("");
+            } catch (error) {
+                console.error(error);
+                return null;
+            }
+        }
+    });
+
+}
+
+
+searchAt();
