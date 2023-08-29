@@ -1,4 +1,4 @@
-const key = "e9c20ad1b3mshaf50c97b5d699fbp1e7529jsn0606e4cb468d"
+const key = "5a6f7988c6msh62ced713f35d153p18c581jsn97749ebad34f"
 
 // Configurar las opciones para la solicitud HTTP
 const options = {
@@ -315,7 +315,7 @@ let searchAt = async () => {
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': 'ce0bb5ce10msh86a291bc0f6ef6ap1cebf7jsn6e24795c9b51',
+                    'X-RapidAPI-Key': key,
                     'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
                 }
             };
