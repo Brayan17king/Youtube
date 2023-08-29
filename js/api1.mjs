@@ -1,4 +1,4 @@
-const key = "5a6f7988c6msh62ced713f35d153p18c581jsn97749ebad34f"
+const key = "e73cd31b63msh73f5e1c22164862p15faabjsnc0ec5bf27b91"
 
 /*---------------------------------------------VIDEO-1--------------------------------------------------*/
 const optionsData1 = {
