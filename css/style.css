@@ -510,3 +510,8 @@ nav{
 .info-sep .right .suscrito i{
     font-size: 1.8vw;
 }
+
+iframe{
+    width: 100%;
+    height: 50%;
+}
